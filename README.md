@@ -3,8 +3,9 @@ RUGE
 
 Realization of uCore on Goldfish Emulator
 
+## Goldfish 上的 uCore 操作系统实现
 
-1个学期 18 周，可分为 3 个阶段，1基础(6周)，2提高(9周)，3选修(3周)
+本课程共 18 周，可分为 3 个阶段，1基础(6周)，2提高(9周)，3选修(3周)
 
 stage 1: week 1 ~ 6
 基础阶段，通过6周时间快速构建一个OS的雏形，能够实现 Shell 功能，运行用户程序。
