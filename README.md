@@ -7,29 +7,29 @@ Realization of uCore on Goldfish Emulator
 
 本课程共 18 周，可分为 3 个阶段，1基础(6周)，2提高(9周)，3选修(3周)
 
-stage 1: week 1 ~ 6
+stage 1: week 1 ~ 6  
 基础阶段，通过6周时间快速构建一个OS的雏形，能够实现 Shell 功能，运行用户程序。
 	
 	lab1.1: Bootloader + ELF OS + UART driver
-	  掌握3个核心概念：loader加载器, elf可执行文件格式, driver设备驱动
+		掌握3个核心概念：Loader加载器, ELF可执行文件格式, Driver设备驱动
 	
-	lab1.2: Interrupt + Mode + Context Switch
-		掌握3个核心概念：int中断, mode处理器工作模式, context处理器上下文
+	lab1.2: Timer Interrupt + CPU Mode + Context Switch
+		掌握3个核心概念：Interrupt时钟中断, Mode处理器工作模式, Context处理器上下文
 		
 	lab1.3: Physical Memory Management
-		掌握3个核心概念：heap堆, alloc/free分配和回收, slab分配机制
+		掌握3个核心概念：heap堆, alloc/free分配和回收, first-fit分配机制
 	
 	lab1.4: Process/PCB + Timer + Scheduling
-		掌握3个核心概念：process/pcb进程控制块, timer时间片, scheduling调度策略
+		掌握3个核心概念：process/pcb进程控制块, timer时间片, scheduling调度策略(FIFO)
 	
-	lab1.5: IPC + Mutex + Semaphore
-		掌握3个核心概念：ipc进程间通讯, mutex互斥锁，sem信号量
+	lab1.5: IPC + Mutex + Critical Section
+		掌握3个核心概念：IPC进程间通讯, Mutex互斥锁, Critical Section临界区
 	
 	lab1.6: Filesystem/namei + OSloader + Shell
 		掌握3个核心概念：fs/namei文件名索引数据块, os加载器，shell外壳/用户界面
 
 	
-stage 2: week 7 ~ 15
+stage 2: week 7 ~ 15  
 提高阶段，通过9周时间扩展对操作系统各个方面的深化认识，能够实现 WebServer 功能，基于硬件平台实践实现。
 
 	lab2.1: Virtual memory management 
@@ -59,7 +59,7 @@ stage 2: week 7 ~ 15
 	lab2.9: WebServer
 		综合项目：完成一个OS+web服务器，巩固以上概念（必做内容）
 
-stage 3: week 16 ~ 18
+stage 3: week 16 ~ 18  
 选修内容 （大作业）
 
 	lab3.1: 为内核实现一种新的调度策略，MultiLevel Feedback Queue(MLFQ) scheduling methodmethod
